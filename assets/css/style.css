@@ -398,3 +398,13 @@ p { margin: 0 0 1em; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* Vorschau-Hinweis (entfernen, sobald die Seite offiziell online geht) */
+.draft-banner {
+  background: var(--accent);
+  color: var(--ink);
+  font-size: .85rem;
+  font-weight: 600;
+  text-align: center;
+  padding: .45rem 1rem;
+}
